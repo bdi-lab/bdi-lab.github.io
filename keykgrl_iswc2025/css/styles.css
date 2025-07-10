@@ -1949,7 +1949,7 @@ progress {
   border-bottom: 1px solid #dddddd;
 }
 
-.table-custom tbody tr:nth-of-type(even) {
+.table-custom tbody tr:nth-of-type(even):not(:first-child) {
   background-color: #f3f3f3;
 }
 
@@ -10890,7 +10890,7 @@ section {
 }
 
 .presenter-text {
-  margin-left: 20px;
+  margin-left: 25px;
   margin-top: 0;
   font-size: 1.25rem;
   font-weight: 300;
